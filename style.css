@@ -1,0 +1,99 @@
+.navbar{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:10px;
+
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav-l{
+   padding-left : 20px;
+   padding-top: 20px;
+}
+.img-logo{
+    height: 100px;
+}
+.nav-r{
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+a{
+    
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+.home{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+}
+.home-img{
+    height: 250px;
+}
+.home-l{
+    text-align: right;
+  
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.home-r{
+    padding-right: 80px;
+    padding-left: 40px;
+    padding-top: 20px;
+    align-items: right;
+}
+.home-h1{
+    text-align: center;
+    color: brown;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.backend-container{
+    display: inline;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+
+}
+.front-end{
+    display: inline;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+}
+.server{
+    display: inline;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    
+}
+.call-img{
+    height: 20px;
+}
+.Contact{
+    text-align: center;
+}
+.social-icon{
+    height: 100px;
+    padding: 20px;
+}
